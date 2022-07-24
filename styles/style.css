@@ -1,0 +1,116 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.navbar-brand{
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.fs{
+  font-size: 18px;
+  color: rgba(230, 218, 218, 0.927);
+}
+.fb{
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 70px;
+}
+#btn{
+  font-size: 18px;
+  font-weight: 600;
+}
+#alart{
+  border-left: 10px solid rgb(8, 8, 233);
+}
+.font-sm{
+  font-size: 16px;
+  font-weight: 500;
+}
+.font-lg{
+  font-size: 50px;
+  font-weight: 600;
+}
+
+#card:hover{
+  background-color: #008AD8;
+  transform: scale(1.2);
+  color: white;
+  border-radius: 30px;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+footer li{
+  list-style: none;
+  margin-left: -30px;
+}
+
+/* mobile */
+
+@media screen and (max-width:576px) {
+  
+  nav {
+    display:flex
+  }
+  #sm-half{
+    width: 50%;
+  }
+
+  .navbar-brand{
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .font-lg{
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .fb{
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 50px;
+  }
+
+  .fs{
+    font-size: 12px;  
+  }
+  #moment{
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 20px;
+  }
+  #alart{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width:370px){
+  .navbar-brand{
+    font-size: 15px;
+    font-weight: 400;
+  }
+}
+
+/* Tab */
+
+@media screen and (min-width:576px) and (max-width:944px){
+  .font-lg{
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  .fs{
+    font-size: 12px;  
+  }
+  .banner-btn{
+    margin-top: -20px;
+  }
+  #moment{
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 20px;
+  }
+}
