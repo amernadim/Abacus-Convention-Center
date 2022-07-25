@@ -1,14 +1,11 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
-
-*{
-  font-family: 'Poppins', sans-serif;
-}
-
-
 .navbar-brand{
   font-size: 30px;
   font-weight: 700;
+}
+.carousel-item img {
+  height: 80vh;
+  object-fit: cover;
 }
 
 .fs{
@@ -65,7 +62,7 @@ footer li{
     font-weight: 700;
   }
   .font-lg{
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 400;
   }
   .fb{
@@ -98,14 +95,14 @@ footer li{
 
 @media screen and (min-width:576px) and (max-width:944px){
   .font-lg{
-    font-size: 20px;
-    font-weight: 400;
-  }
+    font-size: 30px;
+    font-weight: 600;
+  } 
 
   .fs{
     font-size: 12px;  
-  }
-  .banner-btn{
+  } 
+   .banner-btn{
     margin-top: -20px;
   }
   #moment{
